@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'roboto';
+    src: url(./Roboto-Regular.ttf);
+}
+
+
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+* {
+    font-family: 'roboto';
+}
+
+.form-container {
+    background-color: white;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: left;
+    padding-top: 40px;
+}
+
+.inner-form-container {
+    margin: 40px
+}
+
+form input {
+    display: block;
+    border-radius: 5px;
+    border-color: rgb(227, 227, 227);
+    padding: 2px;
+}
+
+#submitBtn {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    background-color: #f2796e;
+    border: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    padding-left: 55px;
+    padding-right: 55px;
+    font-weight: bold;
+    color: white    ;
+}
+
+.invaildLabel {
+    font-size: 12px;
+    visibility: hidden;
+    color: red;
+}
